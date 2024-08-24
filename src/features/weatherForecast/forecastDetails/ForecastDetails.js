@@ -47,7 +47,7 @@
 
 // export default ForecastDetails;
 
-import { getLocalDateTimeString } from "../../helpFunctions";
+import { getLocalDateTimeString } from "../../../helpFunctions";
 import "./forecastDetails.css";
 
 const ForecastDetails = ({ forecast }) => {

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Form from "./CityInputForm";
-import ForecastDetails from "./ForecastDetails";
+import Form from "./cityInputForm/CityInputForm";
+import ForecastDetails from "./forecastDetails/ForecastDetails";
 import { getForecastByCity } from "./weatherForecastApi";
 import "./weatherForecast.css";
 import { getLocalDateTimeString } from "../../helpFunctions"
