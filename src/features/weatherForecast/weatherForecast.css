@@ -1,0 +1,61 @@
+#weatherForecastContainer {
+    display: flex;
+    height: 100vh;
+    background-color: #F2F2F2;
+
+}
+
+#leftSection {
+    flex: 0.8;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.logo {
+    width: 98px;
+    height: 43px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+#appDescription {
+
+    top: 190px;
+    margin-bottom: 60px;
+    left: 103px;
+    width: 290px;
+    height: 132px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    color: #707070;
+
+
+}
+
+#coordinates {
+    font-size: 12px;
+    color: #999;
+    margin-top: 50%;
+    text-align: left;
+}
+
+#rightSection {
+    flex:0.7;
+    background-color: #DDE4E6;
+    padding: 5% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:3% 3% 3% 0%;
+    border-radius: 4px;
+}
+
+#leftSectionRighterSide {
+    margin-left: 60px;
+}
