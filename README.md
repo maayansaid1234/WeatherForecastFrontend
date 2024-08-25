@@ -1,6 +1,20 @@
+# Weather Forecast Application
+
+This application allows users to view weather forecasts for cities around the world. Users can enter the name of a city, and the application will display the current weather conditions for that city. 
+
+The application connects to its backend server, which in turn communicates with the [WeatherAPI](https://www.weatherapi.com/) to fetch the weather data. 
+
+You can find the backend server repository here: [WeatherForecastBackend](https://github.com/maayansaid1234/WeatherForecastBackend).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Installation
+
+Before running the project, make sure to install all the required dependencies. In the project directory, run:
+
+npm install
 
 ## Available Scripts
 
