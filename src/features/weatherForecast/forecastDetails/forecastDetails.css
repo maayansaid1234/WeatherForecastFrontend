@@ -106,11 +106,19 @@
 }
 
   @media (max-width: 767px) {
+    .forecastDetails {
+     height:80%;
+     width: 90%;
+     
+     
+    }
     .container {
         padding: 20px;
-        max-width: 100%;
+        align-items:center;
         display: flex;
         flex-direction: row;
+        margin-left: 0px;
+        width: 100%;
     }
     
     #temperature {
@@ -126,7 +134,8 @@
         line-height: 20px;
     }
     #moreDetailsContainer,#hourlyForecast,#middlePart{
-     flex: 1;
+     
+     flex: 0.8;
      display: flex;
      flex-direction: column;
     }
@@ -135,6 +144,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   
+
  
   #moreDetailsContainer{
     column-gap: 20px; 
