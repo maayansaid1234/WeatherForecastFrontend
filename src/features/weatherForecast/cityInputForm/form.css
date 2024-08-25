@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 280px;
     margin-bottom: 30px;
+    margin-left: 50px;
 
 }
 
@@ -57,4 +58,42 @@
 
 .formErrorMessage{
     color:#046B3B;
+}
+
+
+
+
+  @media (max-width: 767px) {
+    .form{
+        margin-left: 10px;
+    }
+ 
+    .formInput{
+        max-width: 50%;
+    }
+    .formInputContainer {
+        width:80%;
+    }
+    
+    .formSubmitButton {
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .formInput{
+        max-width: 50%;
+    }
+    .formSubmitButton {
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .formInputContainer {
+        width: 60%;
+    }
 }
